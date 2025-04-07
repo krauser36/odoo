@@ -2071,7 +2071,7 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
-"Wenn das aktive Feld auf False gesetzt ist, können Sie den "
+"Wenn das aktive Feld auf Falsch gesetzt ist, können Sie den "
 "Ressourcendatensatz ausblenden, ohne ihn zu entfernen."
 
 #. module: hr_holidays
@@ -2080,7 +2080,7 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the time off "
 "type without removing it."
 msgstr ""
-"Wenn das aktive Feld auf False gesetzt ist, können Sie die Abwesenheitsart "
+"Wenn das aktive Feld auf Falsch gesetzt ist, können Sie die Abwesenheitsart "
 "ausblenden, ohne sie zu entfernen."
 
 #. module: hr_holidays
@@ -4304,7 +4304,7 @@ msgstr "Gearbeitete Zeit"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_mandatory_day__resource_calendar_id
 msgid "Working Hours"
-msgstr "Arbeitsstunden"
+msgstr "Arbeitszeiten"
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__frequency__yearly

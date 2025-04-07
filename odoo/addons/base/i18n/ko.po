@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 16:32+0000\n"
+"POT-Creation-Date: 2025-03-03 11:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -1221,6 +1221,10 @@ msgid ""
 "=======================================================\n"
 "\n"
 msgstr ""
+"\n"
+"사우디아라비아 급여 규칙용 회계 데이터입니다.\n"
+"=======================================================\n"
+"\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ke_hr_payroll_account
@@ -1459,6 +1463,10 @@ msgid ""
 "============================================\n"
 "- Corporate tax report\n"
 msgstr ""
+"\n"
+"방글라데시 회계 보고서\n"
+"============================================\n"
+"- 법인세 신고서\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_reports
@@ -1770,6 +1778,8 @@ msgid ""
 "\n"
 "Accounting Reports for Pakistan (Profit and Loss report and Balance Sheet)\n"
 msgstr ""
+"\n"
+"파키스탄 회계 보고서 (손익계산서 및 재무상태표)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pl_reports
@@ -2093,13 +2103,13 @@ msgstr ""
 "각 신분증에는 다음의 정보가 포함되어 있습니다.\n"
 "\n"
 "* 이름: 신분증 상의 이름\n"
-"* 설명: 동일한 이름 표기이거나 길게 표기된 정식 이름\n"
+"* 설명: 동일한 이름 표기이거나 공문서에 쓰이는 이름을 전체 표기\n"
 "* country_id: 신분증 발행 국가\n"
 "* is_vat: 이 레코드를 특정 국가에 해당하는 VAT로 인식\n"
 "* 순서: 신분증 유형을 가장 많이 사용되는 순서대로 정렬\n"
 "* 활성화: 고객 편의를 위해 신분증을 활성화/비활성화 가능\n"
 "\n"
-"이러한 요구 사항이나 지원이 없는 회사가 있는 다중 회사 환경에서 호환 가능하도록 하기 위해서 이 모듈은, 기존에 알고 있는 VAT 사용 시에만 사용자들이 연락처 정보를 관리하고 투명하게 하기 위해 일반적인 신분증 유형 및 일반적인 규칙이 추가되었습니다.\n"
+"이러한 요구 사항이나 지원이 없는 회사가 있는 다중 회사 환경에서 호환 가능하도록 이 모듈은, 기존에 알고 있는 VAT 사용 시에만 사용자들이 연락처 정보를 관리하고 투명하게 하기 위해 일반적인 신분증 유형 및 일반적인 규칙이 추가되었습니다.\n"
 "일반 신분증은 다음과 같습니다.\n"
 "\n"
 "* VAT: 회계용 세무 신원 증명 VAT 번호로, 신분증 유형 기본값으로 선택되므로 사용자는 관련 VAT 번호만 추가하면 됩니다.\n"
@@ -3083,6 +3093,12 @@ msgid ""
 "- Income tax credits handling\n"
 "- Introduced the income tax slabs calculations\n"
 msgstr ""
+"\n"
+"방글라데시 급여 규칙.\n"
+"=========================\n"
+"- 급여 규칙 계산\n"
+"- 소득세 공제 처리\n"
+"- 소득세 일부 계산 도입\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_et
@@ -4673,6 +4689,8 @@ msgid ""
 "\n"
 "E-invoice implementation for Saudi Arabia; Integration with ZATCA (POS)\n"
 msgstr ""
+"\n"
+"사우디아라비아의 전자 청구서 기능 구현; ZATCA 통합 (POS)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_skills_slides
@@ -4968,6 +4986,16 @@ msgid ""
 "- Tax break calculations and deductions\n"
 "- Master payroll export\n"
 msgstr ""
+"\n"
+"이집트 급여 및 근무 종료 규칙.\n"
+"=========================================\n"
+"- 기본 계산\n"
+"- 근무 종료 정산\n"
+"- 기타 입력(초과 근무, 급여 공제 등)\n"
+"- 사회 보험료 계산\n"
+"- 근무 종료 조항\n"
+"- 세금 감면 계산 및 공제\n"
+"- 마스터 급여 내보내기\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_edi
@@ -6583,6 +6611,12 @@ msgid ""
 "- Tax income brackets\n"
 "- National contribution tax and social security\n"
 msgstr ""
+"\n"
+"요르단 급여 및 세금 규칙\n"
+"========================================\n"
+"- 기본 계산 지원\n"
+"- 세금 소득 구간\n"
+"- 국가 기여세 및 사회 보장\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa_pos
@@ -6591,6 +6625,9 @@ msgid ""
 "Saudi Arabia POS Localization\n"
 "===========================================================\n"
 msgstr ""
+"\n"
+"사우디아라비아 POS 현지화\n"
+"=======================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_appointment_hr_recruitment
@@ -6654,6 +6691,16 @@ msgid ""
 "- WPS\n"
 "- Master Payroll Export\n"
 msgstr ""
+"\n"
+"사우디 아라비아 급여 및 근무 종료 규칙.================================================================\n"
+"- 기본급 계산\n"
+"- 근무 종료 정산\n"
+"- 기타 입력 규칙(초과 근무, 급여 공제 등)\n"
+"- EOS 및 월 급여 기준 분할\n"
+"- GOSI 직원 공제 및 회사 기여금\n"
+"- 무급 휴가\n"
+"- WPS\n"
+"- 마스터 급여 내보내기\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_landed_costs
@@ -7944,6 +7991,18 @@ msgid ""
 "- Withholding Tax Report\n"
 "- Fiscal Positions\n"
 msgstr ""
+"\n"
+"사우디 아라비아 회계 모듈\n"
+"==============================================================\n"
+"사우디 아라비아 회계 기본 과목표 및 현지화\n"
+"\n"
+"활성화 대상:\n"
+"\n"
+"- 계정과목표\n"
+"- 세금\n"
+"- 부가가치세 신고 보고서\n"
+"- 원천징수세 신고서\n"
+"- 재정 위치\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_enterprise
@@ -8168,6 +8227,11 @@ msgid ""
 "- Basic salaries calculations.\n"
 "- Tax bracket calculations/deductions\n"
 msgstr ""
+"\n"
+"파키스탄 급여 및 서비스 종료 규칙\n"
+"=========================================\n"
+"- 기본 급여 계산\n"
+"- 과세 구간 계산/공제\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pa
@@ -9714,6 +9778,20 @@ msgid ""
 "- Other Taxes Report\n"
 "- Fiscal Positions\n"
 msgstr ""
+"\n"
+"이집트 회계 모듈\n"
+"==============================================================================\n"
+"이집트 회계 기본 과목표 및 현지화.\n"
+"\n"
+"활성화 대상:\n"
+"\n"
+"- 계정과목표\n"
+"- 세금\n"
+"- 부가가치세 신고\n"
+"- 원천세 세금 신고\n"
+"- 연금 세금 신고\n"
+"- 기타 세금 신고\n"
+"- 재정 위치\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ee
@@ -11778,6 +11856,10 @@ msgid ""
 "==============================================================================\n"
 "Integrates with the ETA portal to automatically send and sign the Invoices to the Tax Authority.\n"
 msgstr ""
+"\n"
+"이집트 세무 기관 청구서 통합\n"
+"====================================================================================\n"
+"ETA 포털에 연동하여 자동으로 청구서를 세무 기관으로 전송하고 서명합니다.\n"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_eg_edi_eta
@@ -12370,6 +12452,9 @@ msgid ""
 "=======================================================\n"
 "Adds the Corporate Tax Report which can be accessed by going to Accounting > Reporting > Corporate Tax Report\n"
 msgstr ""
+"\n"
+"아랍에미리트 법인세 신고서========================================================\n"
+"법인세 신고서를 회계 > 보고 > 법인세 보고서로 이동하여 추가합니다.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ae_hr_payroll
@@ -12391,6 +12476,22 @@ msgid ""
 "- Master payroll export\n"
 "- WPS\n"
 msgstr ""
+"\n"
+"아랍에미리트 급여 및 서비스 종료 규칙.\n"
+"============================================================\n"
+"- 기본 급여 계산\n"
+"- EOS 계산\n"
+"- 연차 휴가 조항 및 EOS 조항\n"
+"- 현지인용 사회 보험 규칙\n"
+"- 다른 입력 건에 대한 초과 근무 규칙\n"
+"- 병가 계산\n"
+"- DEWS 계산\n"
+"- 자유무역지대(DMCC) EOS 계산\n"
+"- 계약 종료 정산\n"
+"- EOS 계산을 위한 미사용 휴가 계산\n"
+"- (보너스, 수수료, 미납금 등)에 대한 추가 기타 입력 규칙\n"
+"- 마스터 급여 내보내기\n"
+"- WPS\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ae
@@ -12407,6 +12508,17 @@ msgid ""
 "- Tax Report\n"
 "- Fiscal Positions\n"
 msgstr ""
+"\n"
+"아랍에미리트 회계 모듈\n"
+"==========================================================\n"
+"아랍에미리트 회계 기본 과목표 및 현지화\n"
+"\n"
+"활성화 대상:\n"
+"\n"
+"- 계정과목표\n"
+"- 세금\n"
+"- 세무 신고서\n"
+"- 재정 위치\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_us_hr_payroll
@@ -23065,7 +23177,7 @@ msgstr "이집트 - 회계 및 급여"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_eg_edi_eta
 msgid "Egypt E-Invoicing"
-msgstr ""
+msgstr "이집트 전자 청구서"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__eire
@@ -25141,11 +25253,6 @@ msgstr "요식업/환대산업"
 #: model:ir.model.fields,help:base.field_res_company__report_footer
 msgid "Footer text displayed at the bottom of all reports."
 msgstr "모든 보고서의 하단에 표시되는 꼬리말 문구입니다."
-
-#. module: base
-#: model:ir.module.module,summary:base.module_l10n_be_codabox
-msgid "For Accounting Firms"
-msgstr "회계 법인용"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__value
@@ -28422,12 +28529,12 @@ msgstr "K - 금융 및 보험 업무"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_sa_hr_payroll
 msgid "Saudi Arabia - Payroll"
-msgstr ""
+msgstr "사우디아라비아 - 급여"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_sa_hr_payroll_account
 msgid "Saudi Arabia - Payroll with Accounting"
-msgstr ""
+msgstr "사우디아라비아 - 회계 관리 및 급여"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_digest
@@ -41796,6 +41903,16 @@ msgid ""
 "- Taxes\n"
 "- Tax report\n"
 msgstr ""
+"\n"
+"방글라데시의 회계 계정과목표를 관리하기 위한 Odoo 기본 모듈\n"
+"============================\n"
+"방글라데시 회계 기본 과목표 및 현지화.\n"
+"\n"
+"활성화 대상:\n"
+"\n"
+"- 계정과목표\n"
+"- 세금\n"
+"- 세금 신고서\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pk
@@ -41812,6 +41929,17 @@ msgid ""
 "- Tax Report\n"
 "- Withholding Tax Report\n"
 msgstr ""
+"\n"
+"파키스탄 회계 모듈\n"
+"=======================================================\n"
+"파키스탄 회계 기본 과목표 및 현지화.\n"
+"\n"
+"활성화 대상\n"
+"\n"
+"- 계정과목표\n"
+"- 세금\n"
+"- 세금 신고서\n"
+"- 원천징수 세금 신고서\n"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_report__attachment
@@ -41929,13 +42057,9 @@ msgstr "이 모듈은 HR로 수정된 사용자 양식에 OdooBot 상태 및 알
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codabox
 msgid ""
-"This module allows Accounting Firms to connect to CodaBox\n"
-"and automatically import CODA and SODA statements for their clients in Odoo.\n"
-"The connection must be done by the Accounting Firm.\n"
-msgstr ""
-"이 모듈을 사용하면 회계법인이 CodaBox에 연결하여 Odoo에서\n"
-"고객에 대한 CODA 및 SODA 명세서를 자동으로 가져올 수 있습니다.\n"
-"연결은 회계법인이 직접 수행해야 합니다.\n"
+"This module allows connection to CodaBox and automatically imports CODA and "
+"SODA statements in Odoo."
+msgstr "이 모듈을 사용하면 CodaBox에 연결하여 Odoo에서 CODA 및 SODA 명세서를 자동으로 가져올 수 있습니다."
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_online_payment
@@ -42867,12 +42991,12 @@ msgstr "U - 치외법권 조직 및 기관 업무"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ae_hr_payroll
 msgid "United Arab Emirates - Payroll"
-msgstr ""
+msgstr "아랍에미리트 - 급여"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ae_hr_payroll_account
 msgid "United Arab Emirates - Payroll with Accounting"
-msgstr ""
+msgstr "아랍에미리트 - 회계 및 급여"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ae_corporate_tax_report
